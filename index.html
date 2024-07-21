@@ -1,35 +1,570 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Driver Behaviour Analysis</title>
-    <link rel="stylesheet" href="style.css">
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/fevicon.png" type="">
+
+  <title> AI Driver Behaviour Analysis </title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  
+
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#" class="nav-link">Dashboard</a></li>
-                <li><a href="#" class="nav-link">Driver Feedback</a></li>
-                <li><a href="#" class="nav-link">Insurance & Fleet Management</a></li>
-                <li><a href="#" class="nav-link">Autonomous Systems</a></li>
-                <li><a href="#" class="nav-link">Law Misconduct Reporting</a></li>
-            </ul>
-        </nav>
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="header_top">
+        <div class="container-fluid ">
+          <div class="contact_nav">
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call : +27 60 040 4011
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                Email : ourdemo@gmail.com
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Location
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index.html">
+              <span>
+                AI Driver Behaviour Analysis
+              </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="">AI Driver Behaviour Analysis </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#service">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about"> About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
+                </li>
+                <form class="form-inline" method="get">
+				<div class="search-container" id="searchContainer">
+				
+				<!-- +<input type="text" name="" id="speechToText" placeholder="Speak Something" onclick="record()"> -->
+				<input type="text" placeholder="Search..." name="search" id="speechToText" class="search-box" onclick="record()">
+				
+			</div>
+                  <button class="btn  my-2 my-sm-0 nav_search-btn" id="butt" type="submit">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </form>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
     </header>
-    <main>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div class="slider_bg_box">
+        <img src="images/slider-bg.jpeg" alt="">
+      </div>
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 ">
+                  <div class="detail-box">
+                    <h1>
+                      We Provide best <br>
+                      Artificial Intelligence Service
+                    </h1>
+                    <p>
+                      Our system employs precise data strategies to identify issues related to road and traffic behavior in the transportation sector.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Get A Quote
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 ">
+                  <div class="detail-box">
+                    <h1>
+                      It's easy to <br>
+                      use and efficient
+                    </h1>
+                    <p>
+                      Does not need complicated setups
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Get A Quote
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 ">
+                  <div class="detail-box">
+                    <h1>
+                      This is a demo <br>
+                      It is for the hackathon
+                    </h1>
+                    <p>
+                      Simple
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Get A Quote
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#customCarousel1" data-slide-to="1"></li>
+          <li data-target="#customCarousel1" data-slide-to="2"></li>
+        </ol>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding" id="service">
+    <div class="service_container">
+      <div class="container ">
+        <div class="heading_container">
+          <h2>
+            Our <span>Services</span>
+          </h2>
+          <p>
+            There are many variations of services
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="box ">
+                <img src="images/caution.png" alt="">
+              <div class="img-box">
+              </div>
+              <div class="detail-box">
+                <h5>
+                   Risk Detection
+                </h5>
+                <p>
+                  Identifying dangerous driving habits such as harsh breaking, rapid acceleration, and erratic steering
+                </p>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/feedback.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                 Driver Feedback
+                </h5>
+                <p>
+                  Providing feedback to drivers to help them improver their driving habits and reduce the likelihood of road accidentents
+				  <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/delivery-truck.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Insurance and fleet management
+                </h5>
+                <p>
+                  Assuring insurance companies and fleet managers in assesing driver driver performance potentially leading to better insurance rates and more efficient fleet operations 
+                </p>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/setting.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Autonomous Systems Enhancement
+                </h5>
+                <p>
+                  Enhancing the safety and reliability of autonomous driving systems by contiously improving their understanding of safe driving practices
+                </p>
+                <a href="">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding-bottom" id="about">
+    <div class="container  ">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                About <span>Us</span>
+              </h2>
+            </div>
+            <p>
+               Our Al system not only identifies common risky driving behaviour's such as harsh braking, rapid acceleration, and erratic steering but also incorporates advanced algorithms to detect nuanced behaviours that other systems may miss. This comprehensive approach ensures a more thorough understanding of driver behaviour.
+				We provide immediate and actionable feedback to drivers based on real-time data analysis. This proactive approach helps drivers correct their behaviour promptly, leading to safer driving practices and reduced accident risks.
+            </p>
+            <a href="">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/about-img.jpeg" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- track section -->
+
+  <section class="track_section layout_padding">
+    <div class="track_bg_box">
+      <img src="images/track-bg.jpeg" alt="">
+    </div>
+    <div class="container">
+      <main>
         <section class="driver-feedback">
             <h2>Driver Feedback</h2>
             <p>View your driving habits and receive real-time feedback to improve your driving skills.</p>
-            <button class="btn-neon-green">View Feedback</button>
+            <button class="btn-neon-green" onclick="viewFeedback()">View Feedback</button>
         </section>
         <section class="driver-performance">
             <h2>Driver Performance</h2>
             <p>Track your driving performance and identify areas for improvement.</p>
-            <button class="btn-neon-blue">View Performance</button>
+            <button class="btn-neon-blue" onclick="viewPerformance()">View Performance</button>
+        </section>
+		<!-- Input area -->
+
+    <!-- Below is the script for voice recognition and conversion to text-->
+
+    <script src="script.js"></script>
+    </main>
+    </div>
+  </section>
+
+  <!-- end track section -->
+
+  <!-- contact section -->
+  <section class="contact_section" id="contact">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-5 offset-md-1">
+          <div class="heading_container">
+            <h2>
+              Contact Us
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-5 offset-md-1">
+          <div class="form_container contact-form">
+            <form action="">
+              <div>
+                <input type="text" placeholder="Your Name" />
+              </div>
+              <div>
+                <input type="text" placeholder="Phone Number" />
+              </div>
+              <div>
+                <input type="email" placeholder="Email" />
+              </div>
+              <div>
+                <input type="text" class="message-box" placeholder="Message" />
+              </div>
+              <div class="btn_box">
+                <button>
+                  SEND
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-6 px-0">
+          <div class="map_container">
+            <div class="map">
+              <div id="googleMap">
+			 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27492547.501204245!2d5.843938975741804!3d-32.738556989169126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c34a689d9ee1251%3A0xe85d630c1fa4e8a0!2sSouth%20Africa!5e0!3m2!1sen!2sza!4v1721494402487!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1835916.059521782!2d26.805039776044264!3d-26.008234288098457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9512955411779f%3A0x6d9ee7c7cb5438e2!2sGauteng!5e0!3m2!1sen!2sza!4v1721478357280!5m2!1sen!2sza" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+			  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 info_col">
+          
+          
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_contact">
+            <h4>
+              Address
+            </h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +27 63 047 4611
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  bokitladi@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+		  <div class="info_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mx-auto info_col">
+          <h4>
+            Subscribe
+          </h4>
+          <form action="#">
+            <input type="text" placeholder="Enter email" />
+            <button type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col ">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <script type="text/javascript" src="js/ourScript.js"></script>
+  <!-- Google Map -->
+  <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">--> 
+  </script>
+  <!-- End Google Map -->
+  
+  <script>
+        function record() {
+            var recognition = new webkitSpeechRecognition();
+            recognition.lang = "en-GB";
+
+            recognition.onresult = function(event) {
+                // console.log(event);
+                document.getElementById('speechToText').value = event.results[0][0].transcript;
+            }
+            recognition.start();
+
+        }
+    </script>
+	
+	<script>
+        // Smooth scrolling function
+            anchor.addEventListener('click', function(e) {
+        let section = document.querySelectorAll('.nav-link').forEach(anchor => {
+                e.preventDefault();
+				
+                const sectionId = this.getAttribute('href');
+                document.querySelector(sectionId).scrollIntoView({
+                    behavior: 'smooth'
+					
+                });
+            });
+        });
+				
+			function viewFeedback() {
+			window.location.href = "feedback.html";
+			}
+
+			function viewPerformance() {
+			window.location.href = "performance.html";
+			}
+    </script>
+	
+<main>
+        <section id="performance-overview">
+            <h2>Overall Driving Performance</h2>
+            
+			
+			
+			
+			
+            <h3>Driver Summary</h3>
+        <p>John Doe has demonstrated consistent improvement in their driving habits over the past month. Their speed management and turn signal usage are particularly commendable, showing scores well above average. However, there's room for improvement in braking techniques, which occasionally tend to be abrupt.</p>
+        <ul>
+            <li><strong>Strengths:</strong> Speed control, turn signal usage</li>
+            <li><strong>Areas for Improvement:</strong> Smoother braking, maintaining following distance</li>
+        </ul>
+        <p>Overall, John's driving score places them in the top 20% of drivers in their age group. Continued focus on smooth braking could significantly enhance their overall performance.</p>
+        </section>
+        <section id="driver-rating">
+            <h2>Driver Rating</h2>
+            <div id="star-rating"></div>
+            <p id="rating-value"></p>
         </section>
     </main>
-    <script src="script.js"></script>
+
+
 </body>
+
 </html>
